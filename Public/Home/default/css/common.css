@@ -1,0 +1,84 @@
+*{padding:0px; margin:0px;}
+html {_overflow-y:scroll;}
+/*****！！页面通用css样式定义开始******/
+/* body的css定义:这里定义页面上下左右边距，页面背景颜色，滚动条颜色样式 */
+body{
+    font-family: "微软雅黑";    /*文字字体定义 */
+	font-size: 12px;    /*文字大小定义 */
+	color: #666666; /*文字颜色定义 */
+	min-width:1000px;
+	}
+
+/* 网站超链接css通用设置 */
+a{text-decoration: none;} /* 链接无下划线,有为underline */ 
+a:link {color: #2c2c2c;} /* 未访问的链接 */
+a:visited {color: #2c2c2c;} /* 已访问的链接 */
+a:hover{color: #2c2c2c;	text-decoration: none;} /* 鼠标在链接上 */ 
+a:active {color: #2c2c2c;} /* 点击激活链接 */
+
+
+h1,h2,h3,h4,h5,h6{font-size:12px;}
+img{border: 0px;}
+.clear{clear:both; line-height:0; height:0; font-size:0px;}
+.clear:after{content: "."; display: block; height: 0; clear: both; visibility: hidden; }/*清除浮动*/
+
+/*表格样式定义 */ 
+checkbox{border: 0px;}/*选择框样式定义 */ 
+.input{ border:1px solid #CCCCCC; height:20px;line-height:20px} 
+ul,li{ list-style:none}
+
+
+
+/**************from表单**********************/
+.form{ padding:10px;}
+.listtop,.listbottom{   margin-left: 10px; }
+.listtop{margin-top: 10px;border:1px  solid #CCCCCC;border-bottom: none;padding-left: 10px; padding-bottom: 15px;width: 710px;background: #F5F5F5;}
+.con_edit{margin: 10px;}
+.form_top{padding-left: 10px; padding-bottom: 15px;}
+.form dl {overflow: hidden;zoom: 1;padding-top: 15px;}
+.form dt {float: left;width: 15%;font-size: 14px;padding: 3px 0 0 0;color: #666;}
+.form dd {float: left;line-height: 22px;}
+.form dd select, .form dd input {vertical-align: middle;}
+.form dd .logo{border: 1px solid #D4D4D4;}
+.form dd .wxqrcode{width: 80px;height: 80px;border: 1px solid #D4D4D4;}
+.form dd p {clear: both;color: #A0A0A0;padding: 4px 0 0 0;line-height: 16px;}
+.form_b {text-align: left;padding: 20px 0 45px 145px;}
+.form .btn7 {margin-left: 10px;}
+
+/**/
+.personInfo{padding:5px; font-size:14px;}
+.personInfo li{line-height:160%;}
+
+.h3{padding:5px; background:#C5E3FA; font-size:14px; font-weight:bold;}
+
+
+.disable{color:#a7a7a7;}
+
+.btn_blue, .btn_orange, .btn_green{background:#0d9ae4;
+height:26px;line-height:1.8em;
+padding:0px 15px; margin:2px;
+border:0px;/*border-radius: 5px;*/
+color:#fff;font-size:14px; cursor: pointer; 
+}
+.btn_blue:hover {background-color: #9f101e;}
+.btn_orange {background-color: #e4570d;}
+.btn_orange:hover {background-color: #c13b00;}
+
+.btn_green {background-color: #04be00;}
+.btn_green:hover {background-color: #079b04;}
+
+/**/
+.searchFormDiv{ padding:10px;}
+.searchFormDiv li{padding-top:10px;}
+.searchFormDiv input{width:100%; height:30px; line-height:30px;vertical-align:middle;}
+.searchFormDiv  select{width:100%; height:30px; line-height:20px; padding:5px 0px;vertical-align:middle;}
+.search_title{padding:5px; margin-bottom:5px; color:#666; font-size:14px; border-bottom:1px solid #ccc;}
+
+
+/*搜索结果页列表*/
+.wzli li{width:100%;height:30px;line-height:30px;position:relative;}
+.wzli li span{position:absolute;top:0px;right:10px;}
+.wzli li a{padding:0 0 0 15px;}
+.wzli li:hover,.wzli li:hover a{color:#f00;}
+
+
